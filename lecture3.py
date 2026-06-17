@@ -1,10 +1,11 @@
+
 #b Lecture based on lists and tuples
 # 1. TO ask user their 3 favourite movies and store them in a list
 print("To ask users their 3 most favourite movies = ")
 l=[]
 i=1
-for i in range(3):
- l.append(input("Enter your ",i," favourite movie = "))
+for z in range(3):
+ l.append(input("Enter your "+str(i)+" favourite movie = "))
  i+=1
 print(l)
 
@@ -24,10 +25,11 @@ else:
 gr=("C","D","A","A","B","B","A")
 print("To count number of students with grade 'A'")
 print(gr)
-print(gr.count("A")
+print(gr.count("A"))
 
 print("Now storing them and sorting them,however we convert it first to a list")
 o=list(gr)
 print(o)
-print(o.sort())
+(o.sort())
+print(o)
 
