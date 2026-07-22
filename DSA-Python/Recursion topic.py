@@ -10,6 +10,4 @@ def tl(c, n):
     if n != 1:
         tl(c, n - 1)
     print(c)  
-
-
 tl("Whats UP", 10)
