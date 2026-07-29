@@ -4,6 +4,7 @@ def longest_sequence(array):
     last_num=array[0]
     max_sequence=0
     count=1
+    
     for i in array:
         if last_num==i:
             continue
@@ -15,6 +16,6 @@ def longest_sequence(array):
             max_sequence=count
         last_num=i
     return  max_sequence
-array = [100, 4, 200, 1, 3, 2]
+array = [0]
 print(array)
 print(longest_sequence(array))    
